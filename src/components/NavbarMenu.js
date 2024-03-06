@@ -1,31 +1,47 @@
-import React from "react";
-import "../styles/footer.css";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import MenuIcon from "@mui/icons-material/Menu";
+import "../styles/Navbar.css";
+
+import logo from '../images/newlogo.png';
 
 
-const Footer = () => {
- return (
-	<div className="footer">
-		<div className="socialMedia"> 
-		<a target="_blank" href="https://github.com/Muradhanki">
-			<GitHubIcon />
-			</a> 
+const NavbarMenu = () => {
+	const [exandNavbarMenu, setExpandNavbarMenu] = useState(false);
+    // const[newlogo, setNewlogo] = useState();
 
-			<a target="_blank" href="https://www.linkedin.com/in/muradhan-kilinc-msc-bb056076/">
-			<LinkedInIcon />
-			</a>
+  return (
+	<Navbar id={exandNavbarMenu ? "open" : "close"}>
+	<Container>
 
-			<a target="_blank" href="mailto: omega0366@gmail.com">
-			<EmailIcon />
-			</a>
-		</div>
-
-		<p> &copy; 2024 MK Portfolio</p>
+	<Navbar.Brand> 
+          <img 
+            src={logo}
+            alt="logo"
+            className='logo'>
+          </img> 
+          <span id="title"><Link to="/">MK Portfolio</Link></span>
+          </Navbar.Brand>
+	 
+		{/* // Burger Menu  */}
+	<div className='toggleButton'>
+		<button 
+		onClick ={() => { setExpandNavbarMenu((prev) => !prev)} }>
+			
+			<MenuIcon />
+		</button>
 	</div>
-	
+
+	 <div className='links'>
+	 <Link to="/">Home</Link>
+	 <Link to="about">About</Link>
+	 <Link to="projects">Projects</Link>
+	 <Link to="contact">Contact</Link>
+	 </div>
+	</Container>
+  </Navbar>
   );
 }
 
-export default Footer;
+export default NavbarMenu;
