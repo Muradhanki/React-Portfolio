@@ -1,0 +1,267 @@
+:root {
+    --text: #DCCAE9;
+    --softpurple: #A6A9C8;
+    --text2: #D3D9E9;
+    --dark: #31293F;
+    --dark2: #272932;
+    --middletone: #554D74;
+    --button: #FFB6C1;
+    --hotpink: 	#FF69B4;
+    --pastel: #F8C8DC;
+  }
+  
+  
+  .home {
+    width: 100%;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--text2);
+  
+  }
+  
+  .jumbotron{
+    width: 100%;
+    background-image: url(../images/bck1.png);
+    background-position: center;
+    background-size: cover;
+    /* height: calc(100vh - 150px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .me-portrait{
+    width: 400px;
+    margin-bottom: 30px;
+  
+  }
+  
+  /* TEXT */
+  
+  .jumbotron h2{
+    color: var(--text2);
+     font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-top: 15%;
+     display: flex;
+     flex-direction: row;
+    }
+  
+  .jumbotron h1{
+   color: var(--hotpink);
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+   }
+  
+   .jobTitle1{
+    text-align: left;
+    font-size: 24px;
+   }
+  
+   .jobTitle2{
+    text-align: left;
+    font-size: 24px;
+   }
+  
+   .jobTitle3{
+    text-align: left;
+    font-size: 24px;
+   }
+  
+   /* ABOUT ME BUTTON */
+  
+   .aboutPage{
+    margin-top: 45px;
+  
+   }
+  
+  p.aboutPage a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #554D74 0%,
+      #FFB6C1 29%,
+      #DCCAE9 67%,
+      #F8C8DC 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 20px;
+   }
+   @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  
+  
+   /* SOCIAL MEDIA ICONS */
+   
+  .homepaSocials{
+   margin-left: -75%;
+  }
+  
+  .homepage-social-icon{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-right: 18px;
+    color: var(--softpurple);
+  }
+  
+  .homepage-social-icon :hover{ 
+    color: var(--hotpink);
+  }
+  
+  
+  
+  /* ==============MEDIA QUERY 576================ */
+  @media (max-width: 576px) { 
+    .jumbotron{
+    width: 100%;
+    height: 150%;
+    }
+  
+    .me-portrait{
+      width: 150px;
+  
+  }
+  
+  .jumbotron h2{
+     margin-top: 10%;
+    }
+  
+  .jumbotron h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+   }
+  
+   .jobTitle1{
+    text-align: left;
+    font-size: 20px;
+   }
+  
+   .jobTitle2{
+    text-align: left;
+    font-size: 20px;
+   }
+  
+   .jobTitle3{
+    text-align: left;
+    font-size: 20px;
+   }
+  
+   .aboutPage{
+    margin-top: 40px;
+  }
+  .homepage-social-icon{
+    margin-bottom: 30px;
+  }
+  
+    }
+    
+    /* ==============MEDIA QUERY 768================ */
+    @media (max-width: 768px) { 
+      .jumbotron{
+        width: 100%;
+        /* height: 250%; */
+        }
+      
+        .me-portrait{
+          width: 270px;
+      }
+  
+      .jumbotron h2{
+        margin-top: 10%;
+       }
+     
+     .jumbotron h1{
+       font-size: 45px;
+       margin-bottom: 30px;
+       margin-top: 25px;
+      }
+     
+      .jobTitle1{
+       text-align: left;
+       font-size: 20px;
+      }
+     
+      .jobTitle2{
+       text-align: left;
+       font-size: 20px;
+      }
+     
+      .jobTitle3{
+       text-align: left;
+       font-size: 20px;
+      }
+     
+      .aboutPage{
+       margin-top: 40px;
+     }
+     .homepage-social-icon{
+       margin-bottom: 30px;
+     }
+    
+    
+    }
+  
+  /* ==============MEDIA QUERY 992================ */
+    @media (max-width: 992px){
+      .me-portrait{
+        width: 320px;
+    }
+  
+   
+  
+    .jumbotron h2{
+      margin-top: 10%;
+     }
+   
+   .jumbotron h1{
+     font-size: 45px;
+     margin-bottom: 30px;
+     margin-top: 25px;
+    }
+   
+    .jobTitle1{
+     text-align: left;
+     font-size: 20px;
+    }
+   
+    .jobTitle2{
+     text-align: left;
+     font-size: 20px;
+    }
+   
+    .jobTitle3{
+     text-align: left;
+     font-size: 20px;
+    }
+   
+    .aboutPage{
+     margin-top: 40px;
+   }
+  
+   .homepaSocials{
+    text-align: center;
+   }
+  
+  
+  
+    }
