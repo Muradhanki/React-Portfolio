@@ -9,20 +9,20 @@ const Footer = () => {
  return (
 	<div className="footer">
 		<div className="socialMedia"> 
-		<a target="_blank" href="https://github.com/milla56">
+		<a target="_blank" href="https://github.com/Muradhanki">
 			<GitHubIcon />
 			</a> 
 
-			<a target="_blank" href="https://www.linkedin.com/in/mila-lozanova-a97b62184/">
+			<a target="_blank" href="https://www.linkedin.com/in/muradhan-kilinc-msc-bb056076/">
 			<LinkedInIcon />
 			</a>
 
-			<a target="_blank" href="mailto: lubomila14@gmail.com">
+			<a target="_blank" href="mailto: omega0366@gmail.com">
 			<EmailIcon />
 			</a>
 		</div>
 
-		<p> &copy; 2023 Mila's Portfolio</p>
+		<p> &copy; 2024 MK Portfolio</p>
 	</div>
 	
   );
