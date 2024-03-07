@@ -1,4 +1,6 @@
 {
+  "homepage": "https://muradhanki.github.io/React-Portfolio/",
+  "private": true,
   "dependencies": {
     "create-react-app": "^5.0.1"
   }
