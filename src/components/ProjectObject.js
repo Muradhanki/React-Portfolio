@@ -1,8 +1,8 @@
-import ClickStudio from "../images/1clickstudio.png";
+import ClickStudio from "../images/5team.png";
 import Weather from "../images/2weather.png";
 import Planner from "../images/3dailyplanner.png";
 import Readme from "../images/4readme.png";
-import Team from "../images/5team.png";
+import Team from "../images/6password.png";
 import Bee from "../images/7beebooks.png";
 
 
