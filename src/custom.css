@@ -9,7 +9,7 @@ body {
 /* navBar hover and focus custom colors */
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-    color: rgb(255, 190, 152);
+    color: rgb(128,0,32);
 }
 
 .navbar-brand {
@@ -17,11 +17,11 @@ body {
 }
 
 .navbar-brand:hover {
-    color: rgb(255, 190, 152);
+    color: rgb(128,0,32);
 }
 /* hero banner */
 .jumbotron {
-    background-image: url(./images/banner-wall.jpg);
+    background-image: url(./images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,13 +42,13 @@ body {
 /* Style for project buttons */
 .card .btn-primary {
     background-color: rgb(169, 169, 169); 
-    color: rgb(255, 190, 152); 
+    color: rgb(128,0,32); 
     border: none; 
 }
 
   /* Style for buttons on hover */
 .card .btn-primary:hover {
-    background-color: rgb(255, 190, 152); 
+    background-color: rgb(15, 98, 221); 
     color: rgba(0, 0, 0, 0.7); 
 }
 
@@ -74,12 +74,12 @@ body {
 }
 .btn-primary {
     background-color: rgb(169, 169, 169); 
-    color: rgb(255, 190, 152); 
+    color: rgb(128,0,32); 
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: rgb(255, 190, 152); 
+    background-color: rgb(15, 98, 221); 
     color: rgba(0, 0, 0, 0.7); 
 }
 
@@ -119,13 +119,13 @@ address a:hover {
 /* Custom style for the form button */
 .form-button {
     background-color: rgb(169, 169,169);
-    color: rgb(255, 190, 152);
+    color: rgb(128,0,32);
     border: none;
 }
 
   /* Style for hover */
 .form-button:hover {
-    background-color: rgb(255, 190, 152); 
+    background-color: rgb(15, 98, 221); 
     color: rgba(0, 0, 0, 0.7);
 }
 

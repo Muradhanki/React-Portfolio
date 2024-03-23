@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import peachFuzzHeart from '../images/peach-fuzz-heart.png';
+import peachFuzzHeart from '../images/logo512.png';
 
 function Footer() {
   return (
