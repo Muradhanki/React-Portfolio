@@ -33,7 +33,7 @@ function Header() {
                                 <Link className="nav-link" to="/contact">Contact Me</Link>
                             </li>
                             <li className="nav-item">
-                                <a href="/NBResume.pdf" target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>
+                                <a href="/Muradhan KILINC - Front-End Developer - CV.pdf" target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>
                             </li>
                         </ul>
                     </div>
